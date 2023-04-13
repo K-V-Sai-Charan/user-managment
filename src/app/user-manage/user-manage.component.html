@@ -1,0 +1,32 @@
+
+
+<button class="btn btn-outline-primary mb-3" (click)="getSelectedRowData($event); open(mymodal)">Edit</button>
+
+<ag-grid-angular
+class="ag-theme-alpine mb-3 styleTable"
+  [columnDefs]="columnDefs"
+  [rowData]="rowData"
+  [defaultColDef]="defaultColDef"
+  [animateRows]="true"
+  [rowSelection]="'single'"
+  (gridReady)="onGridReady($event)"
+  >
+</ag-grid-angular>
+
+<ng-template #mymodal let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Edit Profile</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">x</span>
+    </button>
+  </div>
+  <div class="modal-body" *ngFor="let item of selectedData">
+    <div *ngFor="let x of item.RoleFunctionArray">
+      <input type="checkbox" [checked]="x.Active == 1" (change)="onCheckedChange(item, item.RoleFunctionArray, x)" id="{{x.FunctionID}}" name="{{x.Tag}}" />{{x.Tag}}
+    </div>
+  </div>
+</ng-template>
+
+
+
+

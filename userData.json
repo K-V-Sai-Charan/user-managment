@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "EmailID": "Ushashree.Rudroju@wmcontractor.com",
+      "UserID": 1,
+      "FirstName": "Usha Shree",
+      "LastName": "Rudroju",
+      "MiddleName": "",
+      "Type": "Exhibitor",
+      "Phone": "(121)21",
+      "Suffix": null,
+      "PIN": null,
+      "DefaultSiteID": "1",
+      "PrefLanguageID": 2,
+      "RoleFunctionArray": [
+        {
+          "FunctionID": 1,
+          "Tag": "PassCreate",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 2,
+          "Tag": "PassDelete",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 3,
+          "Tag": "POIView",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 4,
+          "Tag": "CallInPassView",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 5,
+          "Tag": "CallInPassActivate",
+          "SiteID": 1,
+          "Active": 0
+        },
+        {
+          "FunctionID": 6,
+          "Tag": "PrintPass",
+          "SiteID": 1,
+          "Active": 0
+        },
+        {
+          "FunctionID": 7,
+          "Tag": "MyPassesFilter",
+          "SiteID": 1,
+          "Active": 0
+        },
+        {
+          "FunctionID": 8,
+          "Tag": "ViewPassTransactions",
+          "SiteID": 1,
+          "Active": 0
+        },
+        {
+          "FunctionID": 9,
+          "Tag": "DisplayPhotoPassField",
+          "SiteID": 1,
+          "Active": 0
+        },
+        {
+          "FunctionID": 10,
+          "Tag": "PassCheckIn",
+          "SiteID": 1,
+          "Active": 0
+        }
+      ],
+      "AvailableSiteList": [
+        {
+          "SiteID": 1,
+          "Name": "Burbank",
+          "SiteTimeZone": "US/Pacific",
+          "LogoPath": "./assets/logos/wm_logo.png"
+        },
+        {
+          "SiteID": 5,
+          "Name": "Singapore",
+          "SiteTimeZone": "Asia/Singapore",
+          "LogoPath": "./assets/logos/wm_logo.png"
+        },
+        {
+          "SiteID": 18,
+          "Name": "Ivy Station",
+          "SiteTimeZone": "US/Pacific",
+          "LogoPath": "./assets/logos/wm_logo.png"
+        }
+      ],
+      "Message": "sahdluhd"
+    },
+    {
+      "EmailID": "Hari.Rudroju@wmcontractor.com",
+      "UserID": 2,
+      "FirstName": "Hari",
+      "LastName": "Rudroju",
+      "MiddleName": "",
+      "Type": "Employee",
+      "Phone": "(121)20",
+      "Suffix": null,
+      "PIN": null,
+      "DefaultSiteID": "1",
+      "PrefLanguageID": 2,
+      "RoleFunctionArray": [
+        {
+          "FunctionID": 1,
+          "Tag": "PassCreate",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 2,
+          "Tag": "PassDelete",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 3,
+          "Tag": "POIView",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 4,
+          "Tag": "CallInPassView",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 5,
+          "Tag": "CallInPassActivate",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 6,
+          "Tag": "PrintPass",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 7,
+          "Tag": "MyPassesFilter",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 8,
+          "Tag": "ViewPassTransactions",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 9,
+          "Tag": "DisplayPhotoPassField",
+          "SiteID": 1,
+          "Active": 1
+        },
+        {
+          "FunctionID": 10,
+          "Tag": "PassCheckIn",
+          "SiteID": 1,
+          "Active": 1
+        }
+      ],
+      "AvailableSiteList": [
+        {
+          "SiteID": 1,
+          "Name": "Burbank",
+          "SiteTimeZone": "US/Pacific",
+          "LogoPath": "./assets/logos/wm_logo.png"
+        },
+        {
+          "SiteID": 5,
+          "Name": "Singapore",
+          "SiteTimeZone": "Asia/Singapore",
+          "LogoPath": "./assets/logos/wm_logo.png"
+        },
+        {
+          "SiteID": 18,
+          "Name": "Ivy Station",
+          "SiteTimeZone": "US/Pacific",
+          "LogoPath": "./assets/logos/wm_logo.png"
+        }
+      ],
+      "Message": "Authorization Success"
+    }
+  ]
+}
